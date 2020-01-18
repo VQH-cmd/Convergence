@@ -1,4 +1,10 @@
-# VQHcmd-Sync
+![](https://tokei.rs/b1/github/VQH-cmd/Sync.encrypted?category=code)
+![](https://tokei.rs/b1/github/VQH-cmd/Sync.encrypted?category=files)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/VQH-cmd/Sync.encrypted)
+![GitHub repo size](https://img.shields.io/github/repo-size/VQH-cmd/Sync.encrypted)
+![GitHub All Releases](https://img.shields.io/github/downloads/VQH-cmd/Sync.encrypted/total)
+
+# VQHcmd-Sync.encrypted
 
 - 📦 *Project Name:* **VQHcmd-Sync**
 - 👨‍💻 *Author:* **Võ Quốc Huy**
@@ -113,7 +119,7 @@ ________________________________________________________________
 
 ## License
 
-GNU General Public License v3.0
+[GNU General Public License v3.0](https://github.com/VQH-cmd/Sync.encrypted/blob/master/LICENSE)
 
 ________________________________________________________________
 
