@@ -1,8 +1,9 @@
+![](https://img.shields.io/github/v/release/VQH-cmd/Sync.encrypted)
 ![](https://tokei.rs/b1/github/VQH-cmd/Sync.encrypted?category=code)
 ![](https://tokei.rs/b1/github/VQH-cmd/Sync.encrypted?category=files)
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/VQH-cmd/Sync.encrypted)
-![GitHub repo size](https://img.shields.io/github/repo-size/VQH-cmd/Sync.encrypted)
-![GitHub All Releases](https://img.shields.io/github/downloads/VQH-cmd/Sync.encrypted/total)
+![](https://img.shields.io/github/languages/code-size/VQH-cmd/Sync.encrypted)
+![](https://img.shields.io/github/repo-size/VQH-cmd/Sync.encrypted)
+![](https://img.shields.io/github/downloads/VQH-cmd/Sync.encrypted/total)
 
 # VQHcmd-Sync.encrypted
 
@@ -58,13 +59,14 @@ ________________________________________________________________
 
 ## Functions
 
-Auto convert from	| to
---------			| --------
-.pug				| `.html`
-.html				| `.min.html* (minify files)`
-.sass				| `.css`
-all ".css" files	| `1 ".css" file`
-all ".js" files		| `1 ".js" file`
+Auto convert from		| to
+--------				| --------
+.pug					| `.html`
+.html					| `.min.html* (minify files)`
+.sass					| `.css`
+all ".css" files		| `1 ".css" file`
+Purge "style.css" file	| `1 ".css" file`
+all ".js" files			| `1 ".js" file`
 
 > Support: `HTML`, `CSS`, `JavaScript`, `Pug`, `SASS`, `PHP`, `WordPress`, `localhost`.
 
