@@ -1,10 +1,11 @@
 {
-	"project"		: "D:/npm/VQH-Template/Template",
+	"project"		: "D:/Projects/TemplateX",
 	"minify_html"	: 0,
+	"purge_css"		: 1,
 	"do_pug"		: 0,
 	"do_php"		: 1,
-	"wp_admin"		: 1,
+	"wp_admin"		: 0,
 	"obfuscator"	: 0,
-	"php_loc"		: "D:/laragon/bin/php/php-7.3.13-Win32-VC15-x64",
-	"domain"		: "mytemp.local"
+	"php_loc"		: "C:/php/php-7.4.0-Win32-vc15-x64",
+	"domain"		: "projectX.local"
 }
