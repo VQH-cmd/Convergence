@@ -59,14 +59,14 @@ ________________________________________________________________
 
 ## Functions
 
-Auto convert from		| to
---------				| --------
-.pug					| `.html`
-.html					| `.min.html* (minify files)`
-.sass					| `.css`
-all ".css" files		| `1 ".css" file`
-Purge "style.css" file	| `1 ".css" file`
-all ".js" files			| `1 ".js" file`
+Auto convert from	| to
+--------			| --------
+.pug				| `.html`
+.html				| `.min.html* (minify files)`
+.sass				| `.css`
+all ".css" files	| `1 ".css" file`
+"style.css"			| `Purge file (remove unused css tags)`
+all ".js" files		| `1 ".js" file`
 
 > Support: `HTML`, `CSS`, `JavaScript`, `Pug`, `SASS`, `PHP`, `WordPress`, `localhost`.
 
