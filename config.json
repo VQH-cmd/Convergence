@@ -1,11 +1,12 @@
 {
-	"project"		: "D:/Projects/TemplateX",
-	"minify_html"	: 0,
-	"purge_css"		: 1,
-	"do_pug"		: 0,
-	"do_php"		: 1,
-	"wp_admin"		: 0,
-	"obfuscator"	: 0,
-	"php_loc"		: "C:/php/php-7.4.0-Win32-vc15-x64",
-	"domain"		: "projectX.local"
+	"project"			: "D:/projects/project_x",
+	"minify_html"		: 0,
+	"purge_css"			: 0,
+	"do_pug"			: 0,
+	"do_php"			: 1,
+	"wp_admin"			: 0,
+	"obfuscator"		: 1,
+	"obfuscator_level"	: 1,
+	"php_loc"			: "C:/php/php-7.4.2-Win32-vc15-x64",
+	"domain"			: "project_x.local"
 }
