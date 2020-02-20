@@ -44,16 +44,18 @@ ________________________________________________________________
 
 > Edit this file at first to suit with your computer and project.
 
-*Parameter*		|  *Type*		| *Description*
---------		| --------		| --------
-`project`		| **string**	| Project Directory.
-`minify_html`	| **boolean**	| Minify all **".html"** files.
-`do_pug`		| **boolean**	| Generate **".html"** files with **".pug"** files.
-`do_php`		| **boolean**	| Watch PHP.
-`wp_admin`		| **boolean**	| WordPress admin pages.
-`obfuscator`	| **boolean**	| Protect JavaScript files.
-`php_loc`		| **string**	| PHP location.
-`domain`		| **string**	| Your local domain.
+*Parameter*			|  *Type*		| *Description*
+--------			| :--------:		| --------
+`project`			| **string**	| Project Directory.
+`minify_html`		| **boolean**	| Minify all **".html"** files.
+`do_pug`			| **boolean**	| Generate **".html"** files with **".pug"** files.
+`do_php`			| **boolean**	| Watch PHP.
+`wp_admin`			| **boolean**	| WordPress admin pages.
+`obfuscator`		| **boolean**	| Protect JavaScript files (but increase its size !).
+`obfuscator_level`	| **0**			| 0: Easy Protector (safe)
+|					| **1**			| 1: Extreme Protector (extreme safe but increase more size !)
+`php_loc`			| **string**	| PHP location.
+`domain`			| **string**	| Your local domain.
 
 ________________________________________________________________
 
