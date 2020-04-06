@@ -51,8 +51,8 @@ ________________________________________________________________
 `do_pug`			| **boolean**	| Generate **".html"** files with **".pug"** files.
 `do_php`			| **boolean**	| Watch PHP.
 `wp_admin`			| **boolean**	| WordPress admin pages.
-`obfuscator`		| **boolean**	| Protect JavaScript files (but increase its size !).
-`obfuscator_level`	| **0**			| 0: Easy Protector (safe)
+`encrypt_js`		| **boolean**	| Protect JavaScript files (but increase its size !).
+`encrypt_js_level`	| **0**			| 0: Easy Protector (safe)
 |					| **1**			| 1: Extreme Protector (extreme safe but increase more size !)
 `php_loc`			| **string**	| PHP location.
 `domain`			| **string**	| Your local domain.
@@ -99,19 +99,15 @@ ________________________________________________________________
 + **`Project_Name/`** *(also the root folder)*
 	- **`assets`** *(assets folder)*
 		- **`css`** *(css folder)*
-			- **`build`** *(debug folder)*
-				- **`admin`** *(admin debug folder)*
 		- **`fa`** *(Font Awesome folder)*
 		- **`fonts`** *(Font folder)*
-		- **`html_preprocessor`** *(.html build folder)*
-			- *Many files...*
 		- **`img`** *(Image folder)*
 		- **`js`** *(JavaScript folder)*
-			- **`build`** *(debug folder)*
-				- **`admin`** *(admin debug folder)*
-				- **`script`** *(page script debug folder)*
-		- **`sass`** *(.css build folder)*
-			- *Many files...*
+	- **`build`** *(build folder)*
+		- **`css`** *(css folder)*
+		- **`js`** *(JavaScript folder)*
+		- **`pug`** *(Pug folder)*
+		- **`sass`** *(SASS folder)*
 	- **`data`** *(database)*
 	- **`docs`** *(information about the Project)*
 	- **`inc`** *(include php folder)*
