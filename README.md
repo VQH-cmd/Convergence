@@ -1,13 +1,13 @@
-![](https://img.shields.io/github/v/release/VQH-cmd/Sync.encrypted)
-![](https://tokei.rs/b1/github/VQH-cmd/Sync.encrypted?category=code)
-![](https://tokei.rs/b1/github/VQH-cmd/Sync.encrypted?category=files)
-![](https://img.shields.io/github/languages/code-size/VQH-cmd/Sync.encrypted)
-![](https://img.shields.io/github/repo-size/VQH-cmd/Sync.encrypted)
-![](https://img.shields.io/github/downloads/VQH-cmd/Sync.encrypted/total)
+![](https://img.shields.io/github/v/release/VQH-cmd/Convergence.encrypted)
+![](https://tokei.rs/b1/github/VQH-cmd/Convergence.encrypted?category=code)
+![](https://tokei.rs/b1/github/VQH-cmd/Convergence.encrypted?category=files)
+![](https://img.shields.io/github/languages/code-size/VQH-cmd/Convergence.encrypted)
+![](https://img.shields.io/github/repo-size/VQH-cmd/Convergence.encrypted)
+![](https://img.shields.io/github/downloads/VQH-cmd/Convergence.encrypted/total)
 
-# VQHcmd-Sync.encrypted
+# Convergence.encrypted
 
-- 📦 *Project Name:* **VQHcmd-Sync**
+- 📦 *Project Name:* **Convergence**
 - 👨‍💻 *Author:* **Võ Quốc Huy**
 - 🌐 *Author URL:* **https://VQH-cmd.github.io**
 
@@ -87,7 +87,7 @@ ________________________________________________________________
 `gulp`				| Start synchronizing. Synchronize the project when edit inner files.
 `gulp img_min`		| Optimize all image files.
 `gulp css_purge`	| Remove unnecessary css style.
-`gulp clean`		| Delete all unnecessary files created by Gulp *(VQH-Sync)*.
+`gulp clean`		| Delete all temporary files.
 `gulp clean_all`	| Delete all the generated files.
 `npm install -g npm-check-updates`	| Install check update.
 `ncu`				| Check Update.
@@ -119,7 +119,7 @@ ________________________________________________________________
 
 ## License
 
-[GNU General Public License v3.0](https://github.com/VQH-cmd/Sync.encrypted/blob/master/LICENSE)
+[GNU General Public License v3.0](https://github.com/VQH-cmd/Convergence.encrypted/blob/master/LICENSE)
 
 ________________________________________________________________
 
