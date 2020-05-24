@@ -1,6 +1,6 @@
 {
 	"name": "convergence",
-	"version": "5.0.0",
+	"version": "5.0.1",
 	"description": "HTML, CSS, JS, Pug, SASS, PHP, WordPress; For: Monolith framework",
 	"main": "gulpfile.js",
 	"dependencies": {
@@ -18,7 +18,7 @@
 		"gulp-imagemin": "^7.1.0",
 		"gulp-javascript-obfuscator": "^1.1.6",
 		"gulp-load-plugins": "^2.0.3",
-		"gulp-merge-json": "^2.1.0",
+		"gulp-merge-json": "^2.1.1",
 		"gulp-minifier": "^3.5.0",
 		"gulp-plumber": "^1.2.1",
 		"gulp-pretty-html": "^2.0.10",
@@ -31,9 +31,16 @@
 		"imagemin-gifsicle": "^7.0.0",
 		"imagemin-jpegtran": "^6.0.0",
 		"imagemin-optipng": "^7.1.0",
-		"imagemin-svgo": "^7.1.0",
+		"imagemin-svgo": "^8.0.0",
 		"npm-check-updates": "^6.0.1",
 		"pug": "^2.0.4"
+	},
+	"scripts": {
+		"start": "gulp",
+		"minimg": "gulp img_min",
+		"clean": "gulp clean",
+		"clean:all": "gulp clean_all",
+		"pot": "wp i18n make-pot --skip-js"
 	},
 	"author": "Võ Quốc Huy",
 	"email": "VQH.cmd@gmail.com",
