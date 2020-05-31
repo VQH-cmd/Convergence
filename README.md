@@ -55,54 +55,54 @@ ________________________________________________________________
 {
   "server": {
 
-      💡 Project Directory 💡
+      "💡NOTE💡": "Project Directory",
       "project": "D:/Projects/name",
 
-      💡 Your local domain 💡
+      "💡NOTE💡": "Your local domain",
       "domain": "project.local",
 
-      💡 Your PHP source location 💡
+      "💡NOTE💡": "Your PHP source location",
       "php_loc": "D:/php/7.4.4"
   },
 
   "preprocessor": {
 
-      💡 Minify all '.html' files 💡
+      "💡NOTE💡": "Minify all '.html' files",
       "minify_html": 0,
 
-      💡 Generate '.html' files with '.pug' files 💡
+      "💡NOTE💡": "Generate '.html' files with '.pug' files",
       "pug": 0,
 
-      💡 Is PHP project ? 💡
+      "💡NOTE💡": "Is PHP project ?",
       "php": 1,
 
-      💡 Apply WordPress admin ? 💡
+      "💡NOTE💡": "Apply WordPress admin ?",
       "wp_admin": 0
   },
 
   "css": {
 
-      💡 Auto remove unused CSS styles 💡
+      "💡NOTE💡": "Auto remove unused CSS styles",
       "purge": 1
   },
 
   "js": {
 
-      💡 Convert all ES(x) to ES5 suitable for IE 💡
+      "💡NOTE💡": "Convert all ES(x) to ES5 suitable for IE",
       "es5": 1,
 
-      💡 Protect JavaScript files 💡
-      💡 (⚠️File size will be increased) 💡
+      "💡NOTE💡": "Protect JavaScript files",
+      "💡NOTE💡": "⚠️File size will be increased",
       "encrypt": 0,
 
-      💡 0 = Basic protect 💡
-      💡 1 = Extreme protect 💡
+      "💡NOTE💡": "0 = Basic protect",
+      "💡NOTE💡": "1 = Extreme protect",
       "encrypt_level": 0
   },
 
   "img": {
 
-      💡 Auto minify all image files 💡
+      "💡NOTE💡": "Auto minify all image files",
       "minify": 0
   }
 }
