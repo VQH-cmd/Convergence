@@ -53,58 +53,58 @@ ________________________________________________________________
 
 ```json
 {
-	"server": {
+  "server": {
 
-		💡 Project Directory 💡
-		"project": "D:/Projects/name",
+      💡 Project Directory 💡
+      "project": "D:/Projects/name",
 
-		💡 Your local domain 💡
-		"domain": "project.local",
+      💡 Your local domain 💡
+      "domain": "project.local",
 
-		💡 Your PHP source location 💡
-		"php_loc": "D:/php/7.4.4"
-	},
+      💡 Your PHP source location 💡
+      "php_loc": "D:/php/7.4.4"
+  },
 
-	"preprocessor": {
+  "preprocessor": {
 
-		💡 Minify all '.html' files 💡
-		"minify_html": 0,
+      💡 Minify all '.html' files 💡
+      "minify_html": 0,
 
-		💡 Generate '.html' files with '.pug' files 💡
-		"pug": 0,
+      💡 Generate '.html' files with '.pug' files 💡
+      "pug": 0,
 
-		💡 Is PHP project ? 💡
-		"php": 1,
+      💡 Is PHP project ? 💡
+      "php": 1,
 
-		💡 Apply WordPress admin ? 💡
-		"wp_admin": 0
-	},
+      💡 Apply WordPress admin ? 💡
+      "wp_admin": 0
+  },
 
-	"css": {
+  "css": {
 
-		💡 Auto remove unused CSS styles 💡
-		"purge": 1
-	},
+      💡 Auto remove unused CSS styles 💡
+      "purge": 1
+  },
 
-	"js": {
+  "js": {
 
-		💡 Convert all ES(x) to ES5 suitable for IE 💡
-		"es5": 1,
+      💡 Convert all ES(x) to ES5 suitable for IE 💡
+      "es5": 1,
 
-		💡 Protect JavaScript files 💡
-		💡 (⚠️File size will be increased) 💡
-		"encrypt": 0,
+      💡 Protect JavaScript files 💡
+      💡 (⚠️File size will be increased) 💡
+      "encrypt": 0,
 
-		💡 0 = Basic protect 💡
-		💡 1 = Extreme protect 💡
-		"encrypt_level": 0
-	},
+      💡 0 = Basic protect 💡
+      💡 1 = Extreme protect 💡
+      "encrypt_level": 0
+  },
 
-	"img": {
+  "img": {
 
-		💡 Auto minify all image files 💡
-		"minify": 0
-	}
+      💡 Auto minify all image files 💡
+      "minify": 0
+  }
 }
 ```
 
