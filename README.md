@@ -5,69 +5,118 @@
 ![](https://img.shields.io/github/repo-size/VQH-cmd/Convergence.encrypted)
 ![](https://img.shields.io/github/downloads/VQH-cmd/Convergence.encrypted/total)
 
-# Convergence.encrypted
+# **Convergence**
 
-- 📦 *Project Name:* **Convergence**
-- 👨‍💻 *Author:* **Võ Quốc Huy**
+- 📦 *Project Name:* **`Convergence`**
+- 🏗️ *Project Version:* **`5.2.0`**
+- 👨‍💻 *Author:* **`Võ Quốc Huy`**
 - 🌐 *Author URL:* **https://VQH-cmd.github.io**
 
 ________________________________________________________________
 
-## Description
+## **`[01]:` Description**
 
-A synchronization project for my website template.
-
-Use this project to save ton of coding time if you have my template.
-
-> *This is the encrypted version.*
+- A synchronization project for **[Monolith](https://github.com/VQH-cmd/Monolith.lite)** template.
+- Use this project to save ton of coding time.
 
 ________________________________________________________________
 
-## Installation
+## **`[02]:` Installation**
 
 🗳 *Name*	| 🔗 *Link*
 --------	| --------
 **Node.js**	| https://nodejs.org
 **gulp.js**	| https://gulpjs.com
 
-> 👉 **Note**: *Use the lastest version !*
+> 👉 **`NOTE:`** *Use the lastest version !*
 
 + node_modules:
 	- Click the file **`-install.bat`**.
 	- or Run command **`npm install`** in the **Terminal**.
 
+> Use the command `set-executionpolicy remotesigned` in the **Windows Powershell** if you see
+> ```
+> gulp.ps1 cannot be loaded because running scripts is disabled on this system
+> ```
+> in the Terminal.
+
 ________________________________________________________________
 
-## Config
+## **`[03]:` Config**
 
 > The information in **`config.json`** file.
 
 > Edit this file at first to suit with your computer and project.
 
-*Parameter*			|  *Type*		| *Description*
---------			| :--------:		| --------
-`project`			| **string**	| Project Directory.
-`minify_html`		| **boolean**	| Minify all **".html"** files.
-`do_pug`			| **boolean**	| Generate **".html"** files with **".pug"** files.
-`do_php`			| **boolean**	| Watch PHP.
-`wp_admin`			| **boolean**	| WordPress admin pages.
-`encrypt_js`		| **boolean**	| Protect JavaScript files (but increase its size !).
-`encrypt_js_level`	| **0**			| 0: Easy Protector (safe)
-|					| **1**			| 1: Extreme Protector (extreme safe but increase more size !)
-`php_loc`			| **string**	| PHP location.
-`domain`			| **string**	| Your local domain.
+> `0` = _false_<br />
+> `1` = _true_
+
+```json
+{
+	"server": {
+
+		💡 Project Directory 💡
+		"project": "D:/Projects/name",
+
+		💡 Your local domain 💡
+		"domain": "project.local",
+
+		💡 Your PHP source location 💡
+		"php_loc": "D:/php/7.4.4"
+	},
+
+	"preprocessor": {
+
+		💡 Minify all '.html' files 💡
+		"minify_html": 0,
+
+		💡 Generate '.html' files with '.pug' files 💡
+		"pug": 0,
+
+		💡 Is PHP project ? 💡
+		"php": 1,
+
+		💡 Apply WordPress admin ? 💡
+		"wp_admin": 0
+	},
+
+	"css": {
+
+		💡 Auto remove unused CSS styles 💡
+		"purge": 1
+	},
+
+	"js": {
+
+		💡 Convert all ES(x) to ES5 suitable for IE 💡
+		"es5": 1,
+
+		💡 Protect JavaScript files 💡
+		💡 (⚠️File size will be increased) 💡
+		"encrypt": 0,
+
+		💡 0 = Basic protect 💡
+		💡 1 = Extreme protect 💡
+		"encrypt_level": 0
+	},
+
+	"img": {
+
+		💡 Auto minify all image files 💡
+		"minify": 0
+	}
+}
+```
 
 ________________________________________________________________
 
-## Functions
+## **`[04]:` Functions**
 
 Auto convert from	| to
 --------			| --------
 .pug				| `.html`
-.html				| `.min.html* (minify files)`
 .sass				| `.css`
 all ".css" files	| `1 ".css" file`
-"style.css"			| `Purge file (remove unused css tags)`
 all ".js" files		| `1 ".js" file`
 
 > Support: `HTML`, `CSS`, `JavaScript`, `Pug`, `SASS`, `PHP`, `WordPress`, `localhost`.
@@ -78,15 +127,13 @@ all ".js" files		| `1 ".js" file`
 
 ________________________________________________________________
 
-## Commands & Description
+## **`[05]:` Commands & Description**
 
 > Use the **`Terminal`** to execute the commands.
 
 📟 Commands			| 📝 Description
 --------			| --------
 `gulp`				| Start synchronizing. Synchronize the project when edit inner files.
-`gulp img_min`		| Optimize all image files.
-`gulp css_purge`	| Remove unnecessary css style.
 `gulp clean`		| Delete all temporary files.
 `gulp clean_all`	| Delete all the generated files.
 `npm install -g npm-check-updates`	| Install check update.
@@ -94,30 +141,40 @@ ________________________________________________________________
 
 ________________________________________________________________
 
-## Repository tree
+## **`[06]:` Repository tree**
 
-+ **`Project_Name/`** *(also the root folder)*
-	- **`assets`** *(assets folder)*
-		- **`css`** *(css folder)*
-		- **`fa`** *(Font Awesome folder)*
-		- **`fonts`** *(Font folder)*
-		- **`img`** *(Image folder)*
-		- **`js`** *(JavaScript folder)*
-	- **`build`** *(build folder)*
-		- **`css`** *(css folder)*
-		- **`js`** *(JavaScript folder)*
-		- **`pug`** *(Pug folder)*
-		- **`sass`** *(SASS folder)*
-	- **`data`** *(database)*
-	- **`docs`** *(information about the Project)*
-	- **`inc`** *(include php folder)*
-	- **`locale`** *(Languages folder)*
+> All files in **`/build`** folder will be converted into **`/assets`** folder.
+
++ **`Project_Name/`** *(also the root)*
+	- **`/assets`** *(assets)*
+		- **`/css`** *(css)*
+		- **`/fa`** *(Font Awesome)*
+		- **`/fonts`** *(Font)*
+		- **`/img`** *(Image)*
+		- **`/js`** *(JavaScript)*
+	- **`/build`** *(build)*
+		- **`/css`** *(css)*
+		- **`/js`** *(JavaScript)*
+			- **`/admin`** *(will export '\*.admin.js' files)*
+			- **`/ie`** *(will export 'ie.js' file)*
+			- **`/libs`** *(JavaScript Library)*
+			- **`/script`** *(will export individual files)*
+			- **`custom.js`** *(Custom file for whom have not known how to control this template)*
+		- **`/pug`** *(Pug)*
+		- **`/sass`** *(SASS)*
+			- **`/admin`** *(will export '\*.admin.css' files)*
+			- **`custom.sass`** *(Custom file for whom have not known how to control this template)*
+		- **`/img`** *(Image)*
+	- **`/data`** *(database)*
+	- **`/docs`** *(information about the Project)*
+	- **`/inc`** *(include PHP files)*
+	- **`/locale`** *(internationalization)*
 	- **`.htaccess`**
 	- **`robots.txt`**
 
 ________________________________________________________________
 
-## License
+## **`[07]:` License**
 
 [GNU General Public License v3.0](https://github.com/VQH-cmd/Convergence.encrypted/blob/master/LICENSE)
 
