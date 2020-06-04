@@ -5,12 +5,13 @@
 ![](https://img.shields.io/github/repo-size/VQH-cmd/Convergence.encrypted)
 ![](https://img.shields.io/github/downloads/VQH-cmd/Convergence.encrypted/total)
 
+![Convergence](logo.jpg)
+
 # **Convergence**
 
 - 📦 *Project Name:* **`Convergence`**
 - 🏗️ *Project Version:* **`5.2.0`**
-- 👨‍💻 *Author:* **`Võ Quốc Huy`**
-- 🌐 *Author URL:* **https://VQH-cmd.github.io**
+- 👨‍💻 *Author:* [**VQH-cmd**](https://VQH-cmd.github.io)
 
 ________________________________________________________________
 
@@ -180,4 +181,4 @@ ________________________________________________________________
 
 ________________________________________________________________
 
-Copyright © 2018 - 2020, [Võ Quốc Huy](https://VQH-cmd.github.io).
+Copyright © 2018 - 2020, [VQH-cmd](https://VQH-cmd.github.io).
