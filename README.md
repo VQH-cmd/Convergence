@@ -7,7 +7,7 @@
 
 ![Convergence](logo.jpg)
 
-# **Convergence**
+# **Convergence**_.encrypted_
 
 - 📦 *Project Name:* **`Convergence`**
 - 🏗️ *Project Version:* **`5.2.0`**
