@@ -2,14 +2,17 @@
 	"server": {
 		"project"	: "D:/Projects/name",
 		"domain"	: "project.local",
-		"php_loc"	: "D:/php/7.4.4"
+		"php_loc"	: "D:/php/7.4.4",
+		"port"		: 8000
 	},
 
 	"preprocessor": {
-		"minify_html"	: 0,
-		"pug"			: 0,
-		"php"			: 1,
-		"wp_admin"		: 0
+		"minify_html"	: 1,
+		"pug"			: 1,
+		"php"			: 0,
+		"wp_admin"		: 0,
+		"django"		: 0,
+		"django_static"	: 0
 	},
 
 	"css": {

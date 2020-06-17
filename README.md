@@ -10,7 +10,7 @@
 # **Convergence**_.encrypted_
 
 - 📦 *Project Name:* **`Convergence`**
-- 🏗️ *Project Version:* **`5.2.0`**
+- 🏗️ *Project Version:* **`5.3.0`**
 - 👨‍💻 *Author:* [**VQH-cmd**](https://VQH-cmd.github.io)
 
 ________________________________________________________________
@@ -63,7 +63,10 @@ ________________________________________________________________
       "domain": "project.local",
 
       "💡NOTE💡": "Your PHP source location",
-      "php_loc": "D:/php/7.4.4"
+      "php_loc": "D:/php/7.4.4",
+
+      "💡NOTE💡": "Port for Django",
+      "port": 8000
   },
 
   "preprocessor": {
@@ -78,7 +81,14 @@ ________________________________________________________________
       "php": 1,
 
       "💡NOTE💡": "Apply WordPress admin ?",
-      "wp_admin": 0
+      "wp_admin": 0,
+
+      "💡NOTE💡": "Is Django project ?",
+      "django" : 0,
+
+      "💡NOTE💡": "0 = /static",
+      "💡NOTE💡": "'app_name' = /static/app_name",
+      "django_static" : 0 or "app_name"
   },
 
   "css": {
@@ -120,7 +130,7 @@ Auto convert from	| to
 all ".css" files	| `1 ".css" file`
 all ".js" files		| `1 ".js" file`
 
-> Support: `HTML`, `CSS`, `JavaScript`, `Pug`, `SASS`, `PHP`, `WordPress`, `localhost`.
+> Support: `HTML`, `CSS`, `JavaScript`, `Pug`, `SASS`, `PHP`, `WordPress`, `Django`, `localhost`.
 
 > Support older browser versions by auto editing **`.css`** files without writing every single browser’s support codes.
 
@@ -142,36 +152,70 @@ ________________________________________________________________
 
 ________________________________________________________________
 
-## **`[06]:` Repository tree**
+## **`[06]:` Repository tree **
 
 > All files in **`/build`** folder will be converted into **`/assets`** folder.
 
+### **`[06.00]`: Assets & Build**
+
++ **`.../`**
+	- **`/assets`** *(assets)*
+		- `/css` *(css)*
+		- `/fa` *(Font Awesome)*
+		- `/fonts` *(Font)*
+		- `/img` *(Image)*
+		- `/js` *(JavaScript)*
+	- **`/build`** *(build)*
+		- `/css` *(css)*
+		- `/js` *(JavaScript)*
+			- `/admin` *(will export '\*.admin.js' files)*
+			- `/backend` *(Example: Vue, React, Angular,...)*
+			- `/functions` *(Short Call)*
+			- `/ie` *(will export 'ie.js' file)*
+			- `/libs` *(JavaScript Library)*
+			- `/script` *(will export individual files)*
+			- `custom.js` *(Custom file for whom have not known how to control this template)*
+		- `/pug` *(Pug)*
+		- `/sass` *(SASS)*
+			- `/admin` *(will export '\*.admin.css' files)*
+			- `custom.sass` *(Custom file for whom have not known how to control this template)*
+		- `/img` *(Image)*
+
+----------------------------------------------------------------
+
+### **`[06.01]`: Front-End, PHP, WordPress**
+
 + **`Project_Name/`** *(also the root)*
 	- **`/assets`** *(assets)*
-		- **`/css`** *(css)*
-		- **`/fa`** *(Font Awesome)*
-		- **`/fonts`** *(Font)*
-		- **`/img`** *(Image)*
-		- **`/js`** *(JavaScript)*
 	- **`/build`** *(build)*
-		- **`/css`** *(css)*
-		- **`/js`** *(JavaScript)*
-			- **`/admin`** *(will export '\*.admin.js' files)*
-			- **`/ie`** *(will export 'ie.js' file)*
-			- **`/libs`** *(JavaScript Library)*
-			- **`/script`** *(will export individual files)*
-			- **`custom.js`** *(Custom file for whom have not known how to control this template)*
-		- **`/pug`** *(Pug)*
-		- **`/sass`** *(SASS)*
-			- **`/admin`** *(will export '\*.admin.css' files)*
-			- **`custom.sass`** *(Custom file for whom have not known how to control this template)*
-		- **`/img`** *(Image)*
-	- **`/data`** *(database)*
-	- **`/docs`** *(information about the Project)*
-	- **`/inc`** *(include PHP files)*
-	- **`/locale`** *(internationalization)*
-	- **`.htaccess`**
-	- **`robots.txt`**
+	- `/data` *(database)*
+	- `/docs` *(information about the Project)*
+	- `/inc` *(include PHP files)*
+	- `/locale` *(internationalization)*
+	- `.htaccess`
+	- `robots.txt`
+
+----------------------------------------------------------------
+
+### **`[06.02]`: Django**
++ **`Project_Name/`** *(Also the root)*
+	- `/account`
+	- `/app_name`
+	- `/docs` *(Information about the Project)*
+	- `/global`
+	- `/media`
+	- `/static` *(Static)*
+		- **`/assets`** *(Assets)*
+		- **`/build`** *(Build)*
+		- or:
+			- `/global`
+				- **`/assets`** *(Assets)*
+				- **`/build`** *(Build)*
+			- `/app_name`
+				- **`/assets`** *(Assets)*
+				- **`/build`** *(Build)*
+	- `/templates`
+	- `manage.py`
 
 ________________________________________________________________
 
