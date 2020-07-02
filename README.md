@@ -10,7 +10,7 @@
 # **Convergence**_.encrypted_
 
 - 📦 *Project Name:* **`Convergence`**
-- 🏗️ *Project Version:* **`5.3.0`**
+- 🏗️ *Project Version:* **`5.3.1`**
 - 👨‍💻 *Author:* [**VQH-cmd**](https://VQH-cmd.github.io)
 
 ________________________________________________________________
@@ -64,9 +64,6 @@ ________________________________________________________________
 
       "💡NOTE💡": "Your PHP source location",
       "php_loc": "D:/php/7.4.4",
-
-      "💡NOTE💡": "Port for Django",
-      "port": 8000
   },
 
   "preprocessor": {
@@ -87,7 +84,7 @@ ________________________________________________________________
       "django" : 0,
 
       "💡NOTE💡": "0 = /static",
-      "💡NOTE💡": "'app_name' = /static/app_name",
+      "💡NOTE💡": "'app_name' = /app_name",
       "django_static" : 0 or "app_name"
   },
 
@@ -130,7 +127,7 @@ Auto convert from	| to
 all ".css" files	| `1 ".css" file`
 all ".js" files		| `1 ".js" file`
 
-> Support: `HTML`, `CSS`, `JavaScript`, `Pug`, `SASS`, `PHP`, `WordPress`, `Django`, `localhost`.
+> Support: `HTML`, `CSS`, `JavaScript`, `Pug`, `SASS`, `PHP`, `WordPress`, `Django`, `Wagtail`, `localhost`.
 
 > Support older browser versions by auto editing **`.css`** files without writing every single browser’s support codes.
 
@@ -152,7 +149,7 @@ ________________________________________________________________
 
 ________________________________________________________________
 
-## **`[06]:` Repository tree **
+## **`[06]:` Repository tree**
 
 > All files in **`/build`** folder will be converted into **`/assets`** folder.
 
@@ -183,7 +180,7 @@ ________________________________________________________________
 
 ----------------------------------------------------------------
 
-### **`[06.01]`: Front-End, PHP, WordPress**
+### **`[06.01]`: Front-End, [PHP](https://www.php.net), [WordPress](https://wordpress.org)**
 
 + **`Project_Name/`** *(also the root)*
 	- **`/assets`** *(assets)*
@@ -197,24 +194,18 @@ ________________________________________________________________
 
 ----------------------------------------------------------------
 
-### **`[06.02]`: Django**
+### **`[06.02]`: [Django](https://www.djangoproject.com) + [Wagtail](https://wagtail.io)**
 + **`Project_Name/`** *(Also the root)*
 	- `/account`
 	- `/app_name`
+		- `/templates`
+		- **`/build`** *(Build)*
 	- `/docs` *(Information about the Project)*
 	- `/global`
-	- `/media`
-	- `/static` *(Static)*
-		- **`/assets`** *(Assets)*
+		- `/templates`
 		- **`/build`** *(Build)*
-		- or:
-			- `/global`
-				- **`/assets`** *(Assets)*
-				- **`/build`** *(Build)*
-			- `/app_name`
-				- **`/assets`** *(Assets)*
-				- **`/build`** *(Build)*
-	- `/templates`
+	- `/media`
+	- `/static`
 	- `manage.py`
 
 ________________________________________________________________

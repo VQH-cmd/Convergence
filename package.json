@@ -4,8 +4,8 @@
 	"description": "HTML, CSS, JS, Pug, SASS, PHP, WordPress; For: Monolith framework",
 	"main": "gulpfile.js",
 	"dependencies": {
-		"@babel/core": "^7.10.2",
-		"@babel/preset-env": "^7.10.2",
+		"@babel/core": "^7.10.4",
+		"@babel/preset-env": "^7.10.4",
 		"browser-sync": "^2.26.7",
 		"fs": "0.0.1-security",
 		"gulp": "^4.0.2",
