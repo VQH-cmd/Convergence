@@ -19,7 +19,6 @@
 	},
 
 	"js": {
-		"es5"			: 1,
 		"encrypt"		: 0,
 		"encrypt_level"	: 0
 	},

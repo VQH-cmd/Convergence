@@ -10,7 +10,7 @@
 # **Convergence**_.encrypted_
 
 - 📦 *Project Name:* **`Convergence`**
-- 🏗️ *Project Version:* **`5.3.1`**
+- 🏗️ *Project Version:* **`5.4.0`**
 - 👨‍💻 *Author:* [**VQH-cmd**](https://VQH-cmd.github.io)
 
 ________________________________________________________________
@@ -96,9 +96,6 @@ ________________________________________________________________
 
   "js": {
 
-      "💡NOTE💡": "Convert all ES(x) to ES5 suitable for IE",
-      "es5": 1,
-
       "💡NOTE💡": "Protect JavaScript files",
       "💡NOTE💡": "⚠️File size will be increased",
       "encrypt": 0,
@@ -120,14 +117,14 @@ ________________________________________________________________
 
 ## **`[04]:` Functions**
 
-Auto convert from	| to
---------			| --------
-.pug				| `.html`
-.sass				| `.css`
-all ".css" files	| `1 ".css" file`
-all ".js" files		| `1 ".js" file`
+Auto convert from		| to
+--------				| --------
+.pug					| `.html`
+.sass					| `.css`
+all ".css" files		| `1 ".css" file`
+all ".js", ".ts" files	| `1 ".js" file`
 
-> Support: `HTML`, `CSS`, `JavaScript`, `Pug`, `SASS`, `PHP`, `WordPress`, `Django`, `Wagtail`, `localhost`.
+> Support: `HTML`, `Pug`, `CSS`, `SASS`, `JavaScript`, `TypeScript`, `PHP`, `WordPress`, `Django`, `Wagtail`, `localhost`.
 
 > Support older browser versions by auto editing **`.css`** files without writing every single browser’s support codes.
 
@@ -164,7 +161,9 @@ ________________________________________________________________
 		- `/js` *(JavaScript)*
 	- **`/build`** *(build)*
 		- `/css` *(css)*
-		- `/js` *(JavaScript)*
+			- `/admin` *(will export '\*.admin.css' files)*
+			- `/libs` *(CSS Library)*
+		- `/js` *(JavaScript + TypeScript)*
 			- `/admin` *(will export '\*.admin.js' files)*
 			- `/backend` *(Example: Vue, React, Angular,...)*
 			- `/functions` *(Short Call)*
@@ -172,11 +171,13 @@ ________________________________________________________________
 			- `/libs` *(JavaScript Library)*
 			- `/script` *(will export individual files)*
 			- `custom.js` *(Custom file for whom have not known how to control this template)*
+			- `tsconfig.json` ([TypeScript](https://www.typescriptlang.org) Config)
 		- `/pug` *(Pug)*
 		- `/sass` *(SASS)*
 			- `/admin` *(will export '\*.admin.css' files)*
 			- `custom.sass` *(Custom file for whom have not known how to control this template)*
 		- `/img` *(Image)*
+		- `libs.json` ([Convergence](#)'s Libraries Config)
 
 ----------------------------------------------------------------
 
@@ -200,10 +201,12 @@ ________________________________________________________________
 	- `/app_name`
 		- `/templates`
 		- **`/build`** *(Build)*
+		- `/static`
 	- `/docs` *(Information about the Project)*
 	- `/global`
 		- `/templates`
 		- **`/build`** *(Build)*
+		- `/static`
 	- `/media`
 	- `/static`
 	- `manage.py`
