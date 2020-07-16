@@ -1,6 +1,6 @@
 {
 	"name": "convergence",
-	"version": "5.4.0",
+	"version": "5.4.1",
 	"description": "A Toolkit for: Monolith framework",
 	"keywords": [
 		"convergence",
@@ -49,6 +49,7 @@
 		"gulp-sass": "^4.1.0",
 		"gulp-sass-glob": "^1.1.0",
 		"gulp-typescript": "^6.0.0-alpha.1",
+		"gulp-uglify": "^3.0.2",
 		"gulp4-run-sequence": "^1.0.1",
 		"imagemin-gifsicle": "^7.0.0",
 		"imagemin-jpegtran": "^7.0.0",
@@ -56,6 +57,7 @@
 		"imagemin-svgo": "^8.0.0",
 		"npm-check-updates": "^7.0.1",
 		"pug": "^3.0.0",
+		"remove-use-strict-from-js": "^1.0.2",
 		"typescript": "^3.9.6"
 	},
 	"devDependencies": {
@@ -63,7 +65,7 @@
 		"@barba/css": "^2.1.15",
 		"@barba/prefetch": "^2.1.10",
 		"@barba/router": "^2.1.10",
-		"@splidejs/splide": "^2.4.5",
+		"@splidejs/splide": "^2.4.6",
 		"@swup/body-class-plugin": "^1.0.2",
 		"@swup/debug-plugin": "^1.0.3",
 		"@swup/ga-plugin": "^1.0.1",
@@ -86,12 +88,13 @@
 		"masonry-layout": "^4.2.2",
 		"metismenujs": "^1.2.1",
 		"packery": "^2.1.2",
+		"particles.js": "^2.0.0",
 		"resize-sensor": "0.0.6",
 		"scroll-out": "^2.2.11",
 		"skrollr": "^0.6.26",
 		"slim-select": "^1.26.0",
 		"sticky-sidebar": "^3.3.1",
-		"swiper": "^6.0.2",
+		"swiper": "^6.0.4",
 		"swup": "^2.0.11",
 		"three": "^0.118.3",
 		"tippy.js": "^6.2.5",
