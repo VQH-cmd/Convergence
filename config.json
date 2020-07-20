@@ -3,27 +3,5 @@
 		"project"	: "D:/Projects/name",
 		"domain"	: "project.local",
 		"php_loc"	: "D:/php/7.4.4"
-	},
-
-	"preprocessor": {
-		"minify_html"	: 1,
-		"pug"			: 1,
-		"php"			: 0,
-		"wp_admin"		: 0,
-		"django"		: 0,
-		"django_static"	: 0
-	},
-
-	"css": {
-		"purge"			: 1
-	},
-
-	"js": {
-		"encrypt"		: 0,
-		"encrypt_level"	: 0
-	},
-
-	"img": {
-		"minify"		: 0
 	}
 }

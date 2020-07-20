@@ -1,6 +1,6 @@
 {
 	"name": "convergence",
-	"version": "5.4.1",
+	"version": "5.4.2",
 	"description": "A Toolkit for: Monolith framework",
 	"keywords": [
 		"convergence",
@@ -23,7 +23,7 @@
 	],
 	"main": "gulpfile.js",
 	"dependencies": {
-		"browser-sync": "^2.26.7",
+		"browser-sync": "^2.26.10",
 		"fs": "0.0.1-security",
 		"gulp": "^4.0.2",
 		"gulp-autoprefixer": "^7.0.1",
@@ -55,17 +55,17 @@
 		"imagemin-jpegtran": "^7.0.0",
 		"imagemin-optipng": "^8.0.0",
 		"imagemin-svgo": "^8.0.0",
-		"npm-check-updates": "^7.0.1",
+		"npm-check-updates": "^7.0.2",
 		"pug": "^3.0.0",
 		"remove-use-strict-from-js": "^1.0.2",
-		"typescript": "^3.9.6"
+		"typescript": "^3.9.7"
 	},
 	"devDependencies": {
 		"@barba/core": "^2.9.7",
 		"@barba/css": "^2.1.15",
 		"@barba/prefetch": "^2.1.10",
 		"@barba/router": "^2.1.10",
-		"@splidejs/splide": "^2.4.6",
+		"@splidejs/splide": "^2.4.8",
 		"@swup/body-class-plugin": "^1.0.2",
 		"@swup/debug-plugin": "^1.0.3",
 		"@swup/ga-plugin": "^1.0.1",
@@ -74,7 +74,7 @@
 		"choices.js": "^9.0.1",
 		"dom-i18n": "^1.2.0",
 		"flatpickr": "^4.6.3",
-		"gsap": "^3.4.0",
+		"gsap": "^3.4.1",
 		"imagesloaded": "^4.1.4",
 		"in-view": "^0.6.1",
 		"infinite-scroll": "^3.0.6",

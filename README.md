@@ -10,7 +10,7 @@
 # **Convergence**_.encrypted_
 
 - 📦 *Project Name:* **`Convergence`**
-- 🏗️ *Project Version:* **`5.4.1`**
+- 🏗️ *Project Version:* **`5.4.2`**
 - 👨‍💻 *Author:* [**VQH-cmd**](https://VQH-cmd.github.io)
 
 ________________________________________________________________
@@ -64,51 +64,6 @@ ________________________________________________________________
 
       "💡NOTE💡": "Your PHP source location",
       "php_loc": "D:/php/7.4.4",
-  },
-
-  "preprocessor": {
-
-      "💡NOTE💡": "Minify all '.html' files",
-      "minify_html": 0,
-
-      "💡NOTE💡": "Generate '.html' files with '.pug' files",
-      "pug": 0,
-
-      "💡NOTE💡": "Is PHP project ?",
-      "php": 1,
-
-      "💡NOTE💡": "Apply WordPress admin ?",
-      "wp_admin": 0,
-
-      "💡NOTE💡": "Is Django project ?",
-      "django" : 0,
-
-      "💡NOTE💡": "0 = /static",
-      "💡NOTE💡": "'app_name' = /app_name",
-      "django_static" : 0 or "app_name"
-  },
-
-  "css": {
-
-      "💡NOTE💡": "Auto remove unused CSS styles",
-      "purge": 1
-  },
-
-  "js": {
-
-      "💡NOTE💡": "Protect JavaScript files",
-      "💡NOTE💡": "⚠️File size will be increased",
-      "encrypt": 0,
-
-      "💡NOTE💡": "0 = Basic protect",
-      "💡NOTE💡": "1 = Extreme protect",
-      "encrypt_level": 0
-  },
-
-  "img": {
-
-      "💡NOTE💡": "Auto minify all image files",
-      "minify": 0
   }
 }
 ```
