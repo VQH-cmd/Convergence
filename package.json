@@ -1,6 +1,6 @@
 {
 	"name": "convergence",
-	"version": "5.4.2",
+	"version": "5.4.3",
 	"description": "A Toolkit for: Monolith framework",
 	"keywords": [
 		"convergence",
@@ -74,7 +74,7 @@
 		"choices.js": "^9.0.1",
 		"dom-i18n": "^1.2.0",
 		"flatpickr": "^4.6.3",
-		"gsap": "^3.4.1",
+		"gsap": "^3.4.2",
 		"imagesloaded": "^4.1.4",
 		"in-view": "^0.6.1",
 		"infinite-scroll": "^3.0.6",

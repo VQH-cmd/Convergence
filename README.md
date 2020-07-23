@@ -10,7 +10,7 @@
 # **Convergence**_.encrypted_
 
 - 📦 *Project Name:* **`Convergence`**
-- 🏗️ *Project Version:* **`5.4.2`**
+- 🏗️ *Project Version:* **`5.4.3`**
 - 👨‍💻 *Author:* [**VQH-cmd**](https://VQH-cmd.github.io)
 
 ________________________________________________________________
