@@ -10,7 +10,7 @@
 # **Convergence**_.encrypted_
 
 - 📦 *Project Name:* **`Convergence`**
-- 🏗️ *Project Version:* **`5.4.3`**
+- 🏗️ *Project Version:* **`5.4.4`**
 - 👨‍💻 *Author:* [**VQH-cmd**](https://VQH-cmd.github.io)
 
 ________________________________________________________________
@@ -115,6 +115,10 @@ ________________________________________________________________
 		- `/img` *(Image)*
 		- `/js` *(JavaScript)*
 	- **`/build`** *(build)*
+		- `/config` *(Config Folder)*
+			- `config.json` ([Convergence](#)'s Config)
+			- `libs.json` ([Convergence](#)'s Libraries Config)
+			- `*.json` ([Convergence](#)'s any Config for SASS Import Json)
 		- `/css` *(css)*
 			- `/admin` *(will export '\*.admin.css' files)*
 			- `/libs` *(CSS Library)*
@@ -132,8 +136,6 @@ ________________________________________________________________
 			- `/admin` *(will export '\*.admin.css' files)*
 			- `custom.sass` *(Custom file for whom have not known how to control this template)*
 		- `/img` *(Image)*
-		- `config.json` ([Convergence](#)'s Config)
-		- `libs.json` ([Convergence](#)'s Libraries Config)
 
 ----------------------------------------------------------------
 
