@@ -56,14 +56,25 @@ ________________________________________________________________
 {
   "server": {
 
-      "💡NOTE💡": "Project Directory",
-      "project": "D:/Projects/name",
+    "💡NOTE💡": "Project Directory",
+    "project": "D:/Projects/name",
 
-      "💡NOTE💡": "Your local domain",
-      "domain": "project.local",
+    "💡NOTE💡": "Your local domain",
+    "domain": "project.local",
 
-      "💡NOTE💡": "Your PHP source location",
-      "php_loc": "D:/php/7.4.4",
+    "💡NOTE💡": "Your PHP source location",
+    "php_loc": "D:/php/7.5",
+
+    "💡NOTE💡": "Django Config",
+    "django": {
+
+      "💡NOTE💡": "Active",
+      "core": 0,
+
+      "💡NOTE💡": "Watch Static Folder",
+      "💡NOTE💡": "Default: global",
+      "static": 0
+    }
   }
 }
 ```

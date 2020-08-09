@@ -1,7 +1,11 @@
 {
 	"server": {
-		"project"	: "D:/Projects/name",
+		"project"	: "../Monolith",
 		"domain"	: "project.local",
-		"php_loc"	: "D:/php/7.4.4"
+		"php_loc"	: "D:/php/7.5",
+		"django": {
+			"core"		: 0,
+			"static"	: 0
+		}
 	}
 }
