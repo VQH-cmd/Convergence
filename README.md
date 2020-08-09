@@ -9,16 +9,16 @@
 
 # **Convergence**_.encrypted_
 
-- 📦 *Project Name:* **`Convergence`**
-- 🏗️ *Project Version:* **`5.4.4`**
+- 📦 *Toolkit:* **`Convergence`**
+- 🏗️ *Version:* **`5.4.5`**
 - 👨‍💻 *Author:* [**VQH-cmd**](https://VQH-cmd.github.io)
 
 ________________________________________________________________
 
 ## **`[01]:` Description**
 
-- A synchronization project for **[Monolith](https://github.com/VQH-cmd/Monolith.lite)** template.
-- Use this project to save ton of coding time.
+- A toolkit for **[Monolith](https://github.com/VQH-cmd/Monolith.lite)** template.
+- Use this toolkit to code sharper and save ton of time.
 
 ________________________________________________________________
 
@@ -93,7 +93,7 @@ ________________________________________________________________
 
 📟 Commands			| 📝 Description
 --------			| --------
-`gulp`				| Start synchronizing. Synchronize the project when edit inner files.
+`gulp`				| Start the Toolkit.
 `gulp clean`		| Delete all temporary files.
 `gulp clean_all`	| Delete all the generated files.
 `npm install -g npm-check-updates`	| Install check update.
