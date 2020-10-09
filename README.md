@@ -10,7 +10,7 @@
 # **Convergence**_.encrypted_
 
 - 📦 *Toolkit:* **`Convergence`**
-- 🏗️ *Version:* **`5.4.5`**
+- 🏗️ *Version:* **`5.5.0`**
 - 👨‍💻 *Author:* [**VQH-cmd**](https://VQH-cmd.github.io)
 
 ________________________________________________________________
@@ -127,24 +127,22 @@ ________________________________________________________________
 		- `/js` *(JavaScript)*
 	- **`/build`** *(build)*
 		- `/config` *(Config Folder)*
+			- `utilities` (SASS utilities config)
 			- `config.json` ([Convergence](#)'s Config)
 			- `libs.json` ([Convergence](#)'s Libraries Config)
 			- `*.json` ([Convergence](#)'s any Config for SASS Import Json)
-		- `/css` *(css)*
-			- `/admin` *(will export '\*.admin.css' files)*
-			- `/libs` *(CSS Library)*
 		- `/js` *(JavaScript + TypeScript)*
-			- `/admin` *(will export '\*.admin.js' files)*
 			- `/backend` *(Example: Vue, React, Angular,...)*
 			- `/functions` *(Short Call)*
 			- `/ie` *(will export 'ie.js' file)*
-			- `/libs` *(JavaScript Library)*
+			- `/libs` *(JavaScript Library, support {.js, .ts})*
 			- `/script` *(will export individual files)*
 			- `custom.js` *(Custom file for whom have not known how to control this template)*
 			- `tsconfig.json` ([TypeScript](https://www.typescriptlang.org) Config)
 		- `/pug` *(Pug)*
 		- `/sass` *(SASS)*
-			- `/admin` *(will export '\*.admin.css' files)*
+			- `/libs` *(CSS Library, support {.css,.scss,.sass})*
+			- `/style` *(will export '\*.style.css' files)*
 			- `custom.sass` *(Custom file for whom have not known how to control this template)*
 		- `/img` *(Image)*
 
