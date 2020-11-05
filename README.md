@@ -10,7 +10,7 @@
 # **Convergence**_.encrypted_
 
 - 📦 *Toolkit:* **`Convergence`**
-- 🏗️ *Version:* **`5.5.0`**
+- 🏗️ *Version:* **`5.5.3`**
 - 👨‍💻 *Author:* [**VQH-cmd**](https://VQH-cmd.github.io)
 
 ________________________________________________________________
@@ -26,10 +26,8 @@ ________________________________________________________________
 
 🗳 *Name*	| 🔗 *Link*
 --------	| --------
-**Node.js**	| https://nodejs.org
+**Node.js**	| https://nodejs.org (14.15.0)
 **gulp.js**	| https://gulpjs.com
-
-> 👉 **`NOTE:`** *Use the lastest version !*
 
 + node_modules:
 	- Click the file **`-install.bat`**.
@@ -121,7 +119,6 @@ ________________________________________________________________
 + **`.../`**
 	- **`/assets`** *(assets)*
 		- `/css` *(css)*
-		- `/fa` *(Font Awesome)*
 		- `/fonts` *(Font)*
 		- `/img` *(Image)*
 		- `/js` *(JavaScript)*
