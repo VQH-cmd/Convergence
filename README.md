@@ -10,7 +10,7 @@
 # **Convergence**_.encrypted_
 
 - 📦 *Toolkit:* **`Convergence`**
-- 🏗️ *Version:* **`5.5.3`**
+- 🏗️ *Version:* **`5.5.4`**
 - 👨‍💻 *Author:* [**VQH-cmd**](https://VQH-cmd.github.io)
 
 ________________________________________________________________
@@ -19,19 +19,28 @@ ________________________________________________________________
 
 - A toolkit for **[Monolith](https://github.com/VQH-cmd/Monolith.lite)** template.
 - Use this toolkit to code sharper and save ton of time.
+- Inspired by: **[Captain Panic! & Systek - [Monolith]: Convergence)](https://captainpanicmonolith.bandcamp.com/track/convergence)**
 
 ________________________________________________________________
 
 ## **`[02]:` Installation**
 
-🗳 *Name*	| 🔗 *Link*
+💼 *Base*	| 🔗 *Link*
 --------	| --------
 **Node.js**	| https://nodejs.org (14.15.0)
 **gulp.js**	| https://gulpjs.com
 
-+ node_modules:
-	- Click the file **`-install.bat`**.
-	- or Run command **`npm install`** in the **Terminal**.
+<br>
+
+### **Install Commands** (Terminal):
+```
+npm install
+```
+```
+yarn install
+```
+
+<br>
 
 > Use the command `set-executionpolicy remotesigned` in the **Windows Powershell** if you see
 > ```
