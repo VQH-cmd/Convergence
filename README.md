@@ -1,33 +1,33 @@
-![](https://img.shields.io/github/v/release/VQH-cmd/Convergence.encrypted)
-![](https://tokei.rs/b1/github/VQH-cmd/Convergence.encrypted?category=code)
-![](https://tokei.rs/b1/github/VQH-cmd/Convergence.encrypted?category=files)
-![](https://img.shields.io/github/languages/code-size/VQH-cmd/Convergence.encrypted)
-![](https://img.shields.io/github/repo-size/VQH-cmd/Convergence.encrypted)
-![](https://img.shields.io/github/downloads/VQH-cmd/Convergence.encrypted/total)
-
 ![Convergence](logo.jpg)
 
-# **Convergence**_.encrypted_
+# **Convergence**
 
 - 📦 *Toolkit:* **`Convergence`**
-- 🏗️ *Version:* **`5.5.4`**
+- 🏗️ *Version:* **`7.0.6`**
 - 👨‍💻 *Author:* [**VQH-cmd**](https://VQH-cmd.github.io)
 
+<br>
+
 ________________________________________________________________
+
+<br>
 
 ## **`[01]:` Description**
 
 - A toolkit for **[Monolith](https://github.com/VQH-cmd/Monolith.lite)** template.
-- Use this toolkit to code sharper and save ton of time.
 - Inspired by: **[Captain Panic! & Systek - [Monolith]: Convergence)](https://captainpanicmonolith.bandcamp.com/track/convergence)**
 
+<br>
+
 ________________________________________________________________
+
+<br>
 
 ## **`[02]:` Installation**
 
 💼 *Base*	| 🔗 *Link*
 --------	| --------
-**Node.js**	| https://nodejs.org (14.15.0)
+**Node.js**	| https://nodejs.org (16.x.x)
 **gulp.js**	| https://gulpjs.com
 
 <br>
@@ -48,47 +48,13 @@ yarn install
 > ```
 > in the Terminal.
 
-________________________________________________________________
-
-## **`[03]:` Config**
-
-> The information in **`config.json`** file.
-
-> Edit this file at first to suit with your computer and project.
-
-> `0` = _false_<br />
-> `1` = _true_
-
-```json
-{
-  "server": {
-
-    "💡NOTE💡": "Project Directory",
-    "project": "D:/Projects/name",
-
-    "💡NOTE💡": "Your local domain",
-    "domain": "project.local",
-
-    "💡NOTE💡": "Your PHP source location",
-    "php_loc": "D:/php/7.5",
-
-    "💡NOTE💡": "Django Config",
-    "django": {
-
-      "💡NOTE💡": "Active",
-      "core": 0,
-
-      "💡NOTE💡": "Watch Static Folder",
-      "💡NOTE💡": "Default: global",
-      "static": 0
-    }
-  }
-}
-```
+<br>
 
 ________________________________________________________________
 
-## **`[04]:` Functions**
+<br>
+
+## **`[03]:` Functions**
 
 Auto convert from		| to
 --------				| --------
@@ -97,99 +63,143 @@ Auto convert from		| to
 all ".css" files		| `1 ".css" file`
 all ".js", ".ts" files	| `1 ".js" file`
 
-> Support: `HTML`, `Pug`, `CSS`, `SASS`, `JavaScript`, `TypeScript`, `PHP`, `WordPress`, `Django`, `Wagtail`, `localhost`.
+> Support:
+`HTML`,
+`Pug`,
+`CSS`,
+`SASS/SCSS`,
+`TypeScript`,
+`PHP`,
+`localhost`,
+`ftp`,
+[WordPress](https://wordpress.org),
+[Shopify](https://www.shopify.com),
+[TheBASE](https://thebase.in).
 
-> Support older browser versions by auto editing **`.css`** files without writing every single browser’s support codes.
-
-> Synchronize browsers: Dynamic **`Code → View`** without reloading the site, synchronize all browsers.
+<br>
 
 ________________________________________________________________
 
-## **`[05]:` Commands & Description**
+<br>
+
+## **`[04]:` Commands & Description**
 
 > Use the **`Terminal`** to execute the commands.
 
 📟 Commands			| 📝 Description
 --------			| --------
-`gulp`				| Start the Toolkit.
-`gulp clean`		| Delete all temporary files.
-`gulp clean_all`	| Delete all the generated files.
-`npm install -g npm-check-updates`	| Install check update.
+`gulp --p <DEST>`				| Start the Toolkit.
+`gulp --p <DEST> --env <in shopify.yml>`	| Start the Toolkit for [Shopify](https://www.shopify.com) project, default env: `dev`.
+`gulp clean --p <DEST>`		| Delete all temporary files.
+`gulp clean_all --p <DEST>`	| Delete all the generated files.
 `ncu`				| Check Update.
+
+`<DEST>` = Destination. Example:
+<br>
+`gulp --p D:/Project/example_x`
+<br>
+`gulp --p D:/Shopify/example_x --env prod`
+
+<br>
 
 ________________________________________________________________
 
-## **`[06]:` Repository tree**
+<br>
 
-> All files in **`/build`** folder will be converted into **`/assets`** folder.
+## **`[05]:` Repository tree**
 
-### **`[06.00]`: Assets & Build**
+> All files in **`/build`** folder shall be converted into **`/assets`** folder.
+
+<br>
+
+### **`📦` [Root]: Assets & Build**
 
 + **`.../`**
 	- **`/assets`** *(assets)*
-		- `/css` *(css)*
-		- `/fonts` *(Font)*
-		- `/img` *(Image)*
-		- `/js` *(JavaScript)*
 	- **`/build`** *(build)*
 		- `/config` *(Config Folder)*
-			- `utilities` (SASS utilities config)
+			- `breakpoint.json` (CSS Breakpoint Responsive)
 			- `config.json` ([Convergence](#)'s Config)
-			- `libs.json` ([Convergence](#)'s Libraries Config)
-			- `*.json` ([Convergence](#)'s any Config for SASS Import Json)
+			- `ftp.json` (FTP Config)
+			- `misc.json` (SASS Config)
+			- `theme.json` (Themes/Colors Config)
+			- `whitelist.json` (PurgeCSS config)
 		- `/js` *(JavaScript + TypeScript)*
-			- `/backend` *(Example: Vue, React, Angular,...)*
-			- `/functions` *(Short Call)*
-			- `/ie` *(will export 'ie.js' file)*
+			- `/components`
 			- `/libs` *(JavaScript Library, support {.js, .ts})*
-			- `/script` *(will export individual files)*
-			- `custom.js` *(Custom file for whom have not known how to control this template)*
-			- `tsconfig.json` ([TypeScript](https://www.typescriptlang.org) Config)
+			- `/script` *(shall export individual files)*
+			- `script.ts`
 		- `/pug` *(Pug)*
 		- `/sass` *(SASS)*
-			- `/libs` *(CSS Library, support {.css,.scss,.sass})*
-			- `/style` *(will export '\*.style.css' files)*
-			- `custom.sass` *(Custom file for whom have not known how to control this template)*
-		- `/img` *(Image)*
+			- `/style` *(shall export '\*.style.css' files)*
+			- `style.sass`
+		- `/img` *(Image [Optional])*
+	- **`/docs`** *(identify)*
+	- **`.editorconfig`**
+
+<br>
 
 ----------------------------------------------------------------
 
-### **`[06.01]`: Front-End, [PHP](https://www.php.net), [WordPress](https://wordpress.org)**
+<br>
+
+### **`default`: Front-End, [PHP](https://www.php.net), [WordPress](https://wordpress.org)**
 
 + **`Project_Name/`** *(also the root)*
-	- **`/assets`** *(assets)*
-	- **`/build`** *(build)*
+	- **`📦[Root]`**
 	- `/data` *(database)*
 	- `/docs` *(information about the Project)*
 	- `/inc` *(include PHP files)*
 	- `/locale` *(internationalization)*
 	- `.htaccess`
 	- `robots.txt`
+	- `...`
+
+<br>
 
 ----------------------------------------------------------------
 
-### **`[06.02]`: [Django](https://www.djangoproject.com) + [Wagtail](https://wagtail.io)**
-+ **`Project_Name/`** *(Also the root)*
-	- `/account`
-	- `/app_name`
-		- `/templates`
-		- **`/build`** *(Build)*
-		- `/static`
-	- `/docs` *(Information about the Project)*
-	- `/global`
-		- `/templates`
-		- **`/build`** *(Build)*
-		- `/static`
-	- `/media`
-	- `/static`
-	- `manage.py`
+<br>
+
+### **[Shopify](https://www.shopify.com)**
+
++ **`Project_Name/`** *(also the root)*
+	- **`📦[Root]`**
+	- `/config` *(Shopify)*
+	- `/layout` *(Shopify)*
+	- `/locales` *(Shopify)*
+	- `/sections` *(Shopify)*
+	- `/snippets` *(Shopify)*
+	- `/templates` *(Shopify)*
+	- `shopify.yml` *(Shopify config)*
+
+<br>
+
+----------------------------------------------------------------
+
+<br>
+
+### **[TheBASE](https://thebase.in)**
+
++ **`Project_Name/`** *(also the root)*
+	- **`📦[Root]`**
+	- `theme.html` *(result)*
+
+<br>
 
 ________________________________________________________________
 
-## **`[07]:` License**
+<br>
 
-[GNU General Public License v3.0](https://github.com/VQH-cmd/Convergence.encrypted/blob/master/LICENSE)
+## **`[06]:` Download**
+
+Download link in any **Monolith** project via this location:
++ **`Project_Name/`** *(also the root)*
+	- **`/build`**
+		- `convergence.yml`
+
+<br>
 
 ________________________________________________________________
 
-Copyright © 2018 - 2020, [VQH-cmd](https://VQH-cmd.github.io).
+Copyright © 2018 - 2021, [VQH-cmd](https://VQH-cmd.github.io).
