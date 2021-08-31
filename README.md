@@ -3,7 +3,7 @@
 # **Convergence**
 
 - 📦 *Toolkit:* **`Convergence`**
-- 🏗️ *Version:* **`7.0.6`**
+- 🏗️ *Version:* **`7.1.0`**
 - 👨‍💻 *Author:* [**VQH-cmd**](https://VQH-cmd.github.io)
 
 <br>
@@ -54,27 +54,21 @@ ________________________________________________________________
 
 <br>
 
-## **`[03]:` Functions**
+## **`[03]:` Support**
 
-Auto convert from		| to
---------				| --------
-.pug					| `.html`
-.sass					| `.css`
-all ".css" files		| `1 ".css" file`
-all ".js", ".ts" files	| `1 ".js" file`
-
-> Support:
-`HTML`,
-`Pug`,
-`CSS`,
-`SASS/SCSS`,
-`TypeScript`,
-`PHP`,
-`localhost`,
-`ftp`,
-[WordPress](https://wordpress.org),
-[Shopify](https://www.shopify.com),
-[TheBASE](https://thebase.in).
+[HTML](https://www.w3schools.com/html)<br>
+[Pug](https://pugjs.org)<br>
+[CSS](https://www.w3schools.com/css)<br>
+[SASS/SCSS](https://sass-lang.com)<br>
+[JavaScript](https://www.w3schools.com/js) (Not Recommended) `[ .js ]`<br>
+[TypeScript](https://www.typescriptlang.org) (Recommended) `[ .ts ]`<br>
+[React](https://reactjs.org) `[ .jsx .tsx ]`<br>
+[PHP](https://www.php.net)<br>
+`localhost`<br>
+`ftp`<br>
+[WordPress](https://wordpress.org)<br>
+[Shopify](https://www.shopify.com)<br>
+[TheBASE](https://thebase.in)
 
 <br>
 
@@ -86,13 +80,30 @@ ________________________________________________________________
 
 > Use the **`Terminal`** to execute the commands.
 
-📟 Commands			| 📝 Description
+<br>
+
+📟 Overall Commands		| 📝 Description
 --------			| --------
-`gulp --p <DEST>`				| Start the Toolkit.
-`gulp --p <DEST> --env <in shopify.yml>`	| Start the Toolkit for [Shopify](https://www.shopify.com) project, default env: `dev`.
-`gulp clean --p <DEST>`		| Delete all temporary files.
-`gulp clean_all --p <DEST>`	| Delete all the generated files.
+`gulp <command> --p <DEST>`				| Use the Toolkit.
+`gulp <command> --p <DEST> --env <in shopify.yml>`	| Use the Toolkit for [Shopify](https://www.shopify.com) project, default env: `dev`.
 `ncu`				| Check Update.
+
+<br>
+
+📟 `<command>`		| 📝 Description
+--------			| --------
+b | Build
+w | Watch
+css | Run CSS task only
+css_c | Run custom CSS task only
+js | Run JavaScript task only
+js_c | Run custom JavaScript task only
+pug | Run Pug task only
+ftp | Upload on FTP server
+clean | Remove the temporary files
+clean_all | Remove all generated files
+
+<br>
 
 `<DEST>` = Destination. Example:
 <br>
@@ -112,7 +123,7 @@ ________________________________________________________________
 
 <br>
 
-### **`📦` [Root]: Assets & Build**
+### **`📦` [Pack]: Assets & Build**
 
 + **`.../`**
 	- **`/assets`** *(assets)*
@@ -146,7 +157,7 @@ ________________________________________________________________
 ### **`default`: Front-End, [PHP](https://www.php.net), [WordPress](https://wordpress.org)**
 
 + **`Project_Name/`** *(also the root)*
-	- **`📦[Root]`**
+	- **`📦[Pack]`**
 	- `/data` *(database)*
 	- `/docs` *(information about the Project)*
 	- `/inc` *(include PHP files)*
@@ -164,7 +175,7 @@ ________________________________________________________________
 ### **[Shopify](https://www.shopify.com)**
 
 + **`Project_Name/`** *(also the root)*
-	- **`📦[Root]`**
+	- **`📦[Pack]`**
 	- `/config` *(Shopify)*
 	- `/layout` *(Shopify)*
 	- `/locales` *(Shopify)*
@@ -182,7 +193,7 @@ ________________________________________________________________
 ### **[TheBASE](https://thebase.in)**
 
 + **`Project_Name/`** *(also the root)*
-	- **`📦[Root]`**
+	- **`📦[Pack]`**
 	- `theme.html` *(result)*
 
 <br>
