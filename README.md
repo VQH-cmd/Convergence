@@ -107,9 +107,9 @@ clean_all | Remove all generated files
 
 `<DEST>` = Destination. Example:
 <br>
-`gulp --p D:/Project/example_x`
+`gulp b --p D:/Project/example_x`
 <br>
-`gulp --p D:/Shopify/example_x --env prod`
+`gulp b --p D:/Shopify/example_x --env prod`
 
 <br>
 
