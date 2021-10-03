@@ -1,9 +1,9 @@
-![Convergence](logo.jpg)
+![Convergence](media/logo.jpg)
 
 # **Convergence**
 
 - 📦 *Toolkit:* **`Convergence`**
-- 🏗️ *Version:* **`7.1.0`**
+- 🏗️ *Version:* **`7.1.4`**
 - 👨‍💻 *Author:* [**VQH-cmd**](https://VQH-cmd.github.io)
 
 <br>
@@ -16,6 +16,16 @@ ________________________________________________________________
 
 - A toolkit for **[Monolith](https://github.com/VQH-cmd/Monolith.lite)** template.
 - Inspired by: **[Captain Panic! & Systek - [Monolith]: Convergence)](https://captainpanicmonolith.bandcamp.com/track/convergence)**
+- **Everything is Connected:** One Package connect to many projects !
+
+<br><br>
+
+![Convergence](media/desc-01.png)
+
+<br><hr><br>
+
+![](media/desc-02.png)
+![](media/node_modules.jpg)
 
 <br>
 
@@ -32,12 +42,19 @@ ________________________________________________________________
 
 <br>
 
+### **Location**
+Put the **[Convergence](#)** anywhere in your device.
+Ex: `D:/toolkit/Convergence`
+<br>
+
 ### **Install Commands** (Terminal):
+
+> Recommended !
+> ```
+> yarn install
+> ```
 ```
 npm install
-```
-```
-yarn install
 ```
 
 <br>
@@ -47,6 +64,16 @@ yarn install
 > gulp.ps1 cannot be loaded because running scripts is disabled on this system
 > ```
 > in the Terminal.
+
+<br>
+
+Then `cd` command it every time using.
+Ex:
+```
+cd D:/toolkit/Convergence
+```
+
+![](media/cmd.gif)
 
 <br>
 
@@ -84,8 +111,7 @@ ________________________________________________________________
 
 📟 Overall Commands		| 📝 Description
 --------			| --------
-`gulp <command> --p <DEST>`				| Use the Toolkit.
-`gulp <command> --p <DEST> --env <in shopify.yml>`	| Use the Toolkit for [Shopify](https://www.shopify.com) project, default env: `dev`.
+`gulp <command> --p <DEST> --env <env>`				| Use the Toolkit.
 `ncu`				| Check Update.
 
 <br>
@@ -102,6 +128,15 @@ pug | Run Pug task only
 ftp | Upload on FTP server
 clean | Remove the temporary files
 clean_all | Remove all generated files
+
+<br>
+
+📟 `<env>`		| 📝 Description
+--------			| --------
+`development` / `dev` / `d` | Development *(default, no need to write `--env)`*
+`production` / `prod` / `p` | Production
+
+> If [Shopify](https://www.shopify.com), the value in `shopify.yml`
 
 <br>
 
